@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
@@ -13,10 +13,18 @@
   <script>
     window.$docsify = {
       name: '',
-      repo: ''
+      repo: '',
+      plantuml: {
+        skin: 'default'
+      }
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- plantumlのプラグイン -->
+  <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
+  <!-- ソースコードのハイライト http://prismjs.com -->
+  <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-java.min.js"></script>
 </body>
 </html>
