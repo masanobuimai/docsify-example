@@ -1,0 +1,11 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Docsify.dockerfile
+    ports:
+      - 3000:3000
+    tty: true
+    volumes:
+      - ./docs:/usr/local/docsify/
