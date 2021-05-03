@@ -1,6 +1,7 @@
 FROM node:16.0-buster-slim
 
 RUN apt-get update
+RUN apt-get install -y fonts-ipafont-gothic fonts-ipafont-mincho
 
 RUN apt install -y gconf-service \
                    libxext6 libxfixes3 libxi6 libxrandr2 \
@@ -21,7 +22,7 @@ RUN npm install -g npm@7.11.2 \
                    puppeteer@9.0.0 \
                    docsify-pdf-converter@2.0.7
 
-RUN apt-get install patch
+RUN apt-get install -y patch
 
 COPY render.js.patch /root/render.js.patch
 RUN cd /usr/local/lib/node_modules/docsify-pdf-converter/src && \
