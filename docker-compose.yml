@@ -6,6 +6,7 @@ services:
       dockerfile: Docsify.dockerfile
     ports:
       - 3000:3000
+      - 35729:35729
     tty: true
     volumes:
       - ./docs:/usr/local/docsify/
