@@ -1,0 +1,10 @@
+--- render.js	2021-05-03 03:49:55.106595747 +0000
++++ render.new.js	2021-05-03 03:49:53.088595798 +0000
+@@ -12,6 +12,7 @@ const renderPdf = async ({
+   emulateMedia,
+ }) => {
+   const browser = await puppeteer.launch({
++    args: ['--no-sandbox'],
+     defaultViewport: {
+       width: 1200,
+       height: 1000,
