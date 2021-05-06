@@ -1,16 +1,23 @@
-# Headline
+# README
+
+## 表記例
 
 > An awesome project.
 
-## Section X
+!> 重要
+
+?> TIPS
+
+### Mermaid.js
+
 ```mermaid
 graph LR
-    A --- B
-    B-->C[fa:fa-ban forbidden]
-    B-->D(fa:fa-spinner);
+  A --- B
+  B-->C[fa:fa-ban forbidden]
+  B-->D(fa:fa-spinner);
 ```
 
-## Code Highlight
+### コードハイライト
 
 ```java
 public class Hoge {
@@ -20,11 +27,7 @@ public class Hoge {
 }
 ```
 
-!> 重要
-
-?> TIPS
-
-## flexible-alerts
+### flexible-alerts
 
 > [!NOTE]
 > An alert of type 'note' using global style 'callout'.
@@ -38,7 +41,7 @@ public class Hoge {
 > [!ATTENTION]
 > An alert of type 'attention' using global style 'callout'.
 
-## タブ
+### タブ
 
 <!-- tabs:start -->
 
