@@ -1,1 +1,2 @@
-* [README](readme.md)
+- Table of Contents
+  - [README](readme.md)

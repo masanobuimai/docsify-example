@@ -2,7 +2,7 @@
 
 > An awesome project.
 
-### Section X
+## Section X
 ```mermaid
 graph LR
     A --- B
@@ -10,7 +10,7 @@ graph LR
     B-->D(fa:fa-spinner);
 ```
 
-### Code Highlight
+## Code Highlight
 
 ```java
 public class Hoge {
@@ -24,7 +24,7 @@ public class Hoge {
 
 ?> TIPS
 
-### flexible-alerts
+## flexible-alerts
 
 > [!NOTE]
 > An alert of type 'note' using global style 'callout'.
