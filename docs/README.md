@@ -37,3 +37,21 @@ public class Hoge {
 
 > [!ATTENTION]
 > An alert of type 'attention' using global style 'callout'.
+
+## タブ
+
+<!-- tabs:start -->
+
+#### **English**
+
+Hello!
+
+#### **French**
+
+Bonjour!
+
+#### **Italian**
+
+Ciao!
+
+<!-- tabs:end -->
